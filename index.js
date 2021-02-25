@@ -43,7 +43,7 @@ const waitFor = ({ functor, finish, interval }) => async (...args) => {
 
 const main = async ({ latitude, longitude, distance, watch, open, forever, minimum, interval }) => {
   const functor = open ? openLocationsNear : getLocationsNear
-  const finish = forever ? console.log : any
+  const finish = forever ? logJson : any
   const control = watch ? waitFor({ functor, finish, interval }) : functor
   return await control({ latitude, longitude, distance, minimum })
 }

@@ -1,3 +1,5 @@
+const logJson = obj => console.log(JSON.stringify(obj, null, 2))
+
 const main = require('../')
 const argv = require('yargs/yargs')(process.argv.slice(2))
   .default('longitude', -97.7437001)
