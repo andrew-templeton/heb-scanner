@@ -8,11 +8,23 @@ Optional: If using `--open true` for magic tab opening, a system with `open` she
 
 ### Setup
 
+
+###### bash
 ```
 git clone https://github.com/andrew-templeton/heb-cheater;
 cd heb-cheater;
 npm install;
-node index;
+node bin/cli # rest of your arguments here;
+```
+
+###### node
+```
+# in bash, npm install heb-cheater
+const heb = require('heb-cheater')
+(async () => {
+  const stores = await heb({ latitude /* your args here */ })
+  console.log(JSON.stringify(stores, null, 2))
+})();
 ```
 
 ### Use
