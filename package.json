@@ -1,6 +1,6 @@
 {
   "name": "heb-cheater",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "### Requirements",
   "main": "index.js",
   "dependencies": {
@@ -8,7 +8,7 @@
     "yargs": "^16.2.0"
   },
   "bin": {
-    "heb-cheater": "index"
+    "heb-cheater": "index.js"
   },
   "devDependencies": {},
   "scripts": {
