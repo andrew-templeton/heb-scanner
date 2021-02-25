@@ -47,6 +47,7 @@ const main = async ({ latitude, longitude, distance, watch, open, forever, minim
   return await control({ latitude, longitude, distance, minimum })
 }
 
+module.exports = main
 
 if (!module.parent) {
   var argv = require('yargs/yargs')(process.argv.slice(2))
