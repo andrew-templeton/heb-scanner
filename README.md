@@ -25,12 +25,12 @@ Boolean flags should be used as value of `true`, all default to `false`.
 ###### `latitude`
 
 Floating point, signed latitude of the centerpoint of search.  
-Default: `-97.7437001`
+Default: `30.270077` (a place in Austin, TX)
 
 ###### `longitude`
 
 Floating point, signed longitude of the centerpoint of search.  
-Default: `30.270077`
+Default: `-97.7437001` (a place in Austin, TX)
 
 ###### `distance`
 
