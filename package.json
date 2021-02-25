@@ -1,7 +1,7 @@
 {
   "name": "heb-cheater",
   "version": "1.0.0",
-  "description": "",
+  "description": "### Requirements",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.21.1",
@@ -16,5 +16,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/heb-cheater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/heb-cheater/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/heb-cheater#readme"
 }
