@@ -1,6 +1,6 @@
 {
-  "name": "heb-cheater",
-  "version": "1.4.3",
+  "name": "heb-scanner",
+  "version": "1.4.4",
   "description": "### Requirements",
   "main": "index.js",
   "dependencies": {
@@ -16,10 +16,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrew-templeton/heb-cheater.git"
+    "url": "git+https://github.com/andrew-templeton/heb-scanner.git"
   },
   "bugs": {
-    "url": "https://github.com/andrew-templeton/heb-cheater/issues"
+    "url": "https://github.com/andrew-templeton/heb-scanner/issues"
   },
-  "homepage": "https://github.com/andrew-templeton/heb-cheater#readme"
+  "homepage": "https://github.com/andrew-templeton/heb-scanner#readme"
 }
